@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:interfaces/i_violator_info.dart';
-import 'package:interfaces/violator_address.dart';
+import 'package:interfaces/interfaces/i_violator_info.dart';
+import 'package:interfaces/models/violator_address.dart';
 
 class ViolatorInfoIp implements IViolatorInfo {
 
