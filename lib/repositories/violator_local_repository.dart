@@ -1,6 +1,6 @@
-import 'package:interfaces/i_violator_info.dart';
-import 'package:interfaces/i_violator_repository.dart';
-import 'package:interfaces/local_map_db.dart';
+import 'package:interfaces/interfaces/i_violator_info.dart';
+import 'package:interfaces/interfaces/i_violator_repository.dart';
+import 'package:interfaces/services/local_map_db.dart';
 
 class ViolatorLocalRepository implements IViolatorRepository {
   final LocalMapDb _localMapDb;

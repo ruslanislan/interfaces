@@ -1,10 +1,10 @@
-import 'package:interfaces/i_violator_info.dart';
-import 'package:interfaces/i_violator_repository.dart';
-import 'package:interfaces/local_map_db.dart';
-import 'package:interfaces/violator_address.dart';
-import 'package:interfaces/violator_info_ip.dart';
-import 'package:interfaces/violator_info_legal.dart';
-import 'package:interfaces/violator_local_repository.dart';
+import 'package:interfaces/interfaces/i_violator_info.dart';
+import 'package:interfaces/interfaces/i_violator_repository.dart';
+import 'package:interfaces/services/local_map_db.dart';
+import 'package:interfaces/models/violator_address.dart';
+import 'package:interfaces/models/violator_info_ip.dart';
+import 'package:interfaces/models/violator_info_legal.dart';
+import 'package:interfaces/repositories/violator_local_repository.dart';
 
 void main(List<String> arguments) async {
 
