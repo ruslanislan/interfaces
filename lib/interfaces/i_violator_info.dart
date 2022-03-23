@@ -1,4 +1,4 @@
-import 'package:interfaces/violator_address.dart';
+import 'package:interfaces/models/violator_address.dart';
 
 abstract class IViolatorInfo {
   int get id;

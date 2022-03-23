@@ -1,4 +1,4 @@
-import 'package:interfaces/i_violator_info.dart';
+import 'package:interfaces/interfaces/i_violator_info.dart';
 
 class LocalMapDb {
   final Map<int, IViolatorInfo> map = {};
